@@ -6,19 +6,19 @@ app.get('/', function (req, res) {
 })
 // route that gets executed for GET request and the request url path '/hello/'
 app.get('/welcome/', function (req, res) {
-   res.send('Welcome to node express.js.')
+   res.send('Welcome to cse-c.')
 })
  // route that gets executed for GET request and the request url path '/bye/'
 app.get('/hello/', function (req, res) {
-   res.send('hello page.')
+   res.send('hello IT.')
 })
  // route that gets executed for GET request and the request url path '/bye/'
 app.get('/bye/', function (req, res) {
-   res.send('bye page.')
+   res.send('bye cse.')
 })
 // route that gets executed for GET request and the request url path '/bye/'
 app.get('/thank/', function (req, res) {
-   res.send('Thank you page.')
+   res.send('Thank you it.')
 })
 // start the server
 var server = app.listen(8000, function(){
